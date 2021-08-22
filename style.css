@@ -111,10 +111,11 @@ a:link, a:visited,  a:hover, a:active
     
 }
 
-button{
+.submit{
     width: 127px;
     height: 36px;
     margin: 4px;
+    border-radius: 0px;
 }
 
 footer{
@@ -123,20 +124,57 @@ footer{
     justify-content: flex-end;
     height: 100%;
     width: 100%;
+    background-color: greenyellow;
    
 }
 
 
-.bottom-section{
-    
+
+.top-section{
     display: flex;
+    align-items: flex-end;
+    padding: 15px 5px;
+    border-bottom: 1px solid rgb(153, 151, 151);
     
+    background-color: #dadce0;
+   
+   
+
+}
+.bottom-section{
+    margin: 0;
+    display: flex;
+    background-color: #dadce0;
     justify-content: space-between;
+    padding-top: 15px;
     
 }
 
 
 .fleft-side{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.center{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  
+  
+    
+
+}
+
+.leaf{
+    margin-right: 7px;
+    margin-top: 3px;
+    height: 15px;
+}
+
+.fright-side{
     display: flex;
     align-items: center;
 }
