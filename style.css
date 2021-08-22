@@ -1,0 +1,190 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    
+
+    
+}
+
+nav{
+    display: flex;
+  justify-content: space-between;
+    padding: 5px;
+   
+   
+
+
+}
+
+
+a{
+    text-decoration: none;
+    margin: 6px;
+    
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+.left-side{
+    display: flex;
+    align-items: center;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.header-img{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.img-border{
+    border-radius: 50%;
+}
+
+
+
+.main{
+    width: 280px;
+    height: 92px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 100px;
+    padding-left: 10px;
+    
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+.box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+   
+    width: 592px;
+    height: 39px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-image{
+   align-self: center;
+   padding-left: 5px;
+
+}
+.input-box{
+    flex-grow: 2;
+    align-self: center;
+    border-style: none;
+    margin: 2px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+button{
+    margin: 5px;
+    width: 120px;
+    height: 34px;
+    border-style: none;
+    
+}
+
+
+
+
+footer{
+    display: flex;
+    height: 370px;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+    
+}
+
+.top-section{
+   
+    padding: 15px 5px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    
+    background-color: #dadce0;
+   
+   
+
+}
+
+
+.bottom-section {
+    display: flex;
+    
+    justify-content: space-between;
+    
+    background-color: #dadce0;
+    padding-top: 20px;
+    
+   
+    
+
+    
+
+}
+
+
+.fleft-side{
+
+    display: flex;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  
+    
+
+}
+
+.leaf{
+    margin-right: 7px;
+    margin-top: 3px;
+    height: 15px;
+}
+
+.fright-side{
+    display: flex;
+    align-items: center;
+}
+ 
+
+
