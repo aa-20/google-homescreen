@@ -5,7 +5,7 @@
     padding:0;
 }
 html,body{
-    font-size: 14px;
+    font-size: 18px;
     font-family: arial,sans-serif;
     color: #222;
     display: flex;
@@ -21,7 +21,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px;
    
    
 
@@ -69,6 +69,9 @@ a:link, a:visited,  a:hover, a:active
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-style: solid;
+    border-color: chocolate;
+   
    
     
    
@@ -76,9 +79,11 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .logo{
-    width: 230px;
-  
+    width: 370px;
+    border-style: solid;
+    border-color: crimson;
     margin: auto;
+    padding-top: 20px;
     margin: 20px 0px;
 }
 
@@ -88,26 +93,42 @@ a:link, a:visited,  a:hover, a:active
 }
 
 
+.glass{
+    border-style: solid;
+    border-color: crimson;
+    display: flex;
+    align-items: center;
+}
 .textbox{
    width: 450px;
    border-style: none;
+   background-color:#fff;
+   display: flex;
+   align-items: center;
+   height: 20px;
+   margin: auto;
 
 
  
 }
 .search{
     width: 500px;
+    height: 39px;
     display: flex;
     justify-content: flex-start;
     border-style: solid;
     border-color: black;
     flex-shrink: 1;
     border-radius: 25px;
+    margin: 20px;
 }
 
 .buttons{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+    border-style: solid;
+    border-color: brown;
     
 }
 
