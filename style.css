@@ -32,14 +32,12 @@ nav{
 a{
     text-decoration: none;
     margin: 6px;
+    color: black;
     
 }
 
-a:link, a:visited,  a:hover, a:active
-{
-    color: #000000;
-    text-decoration: none;
-}
+
+
 
 
 
@@ -79,12 +77,13 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .logo{
-    width: 370px;
+    width: 390px;
     border-style: solid;
     border-color: crimson;
     margin: auto;
     padding-top: 20px;
-    margin: 20px 0px;
+    margin-top: 30px;
+
 }
 
 .logo-img{
@@ -120,13 +119,13 @@ a:link, a:visited,  a:hover, a:active
     border-color: black;
     flex-shrink: 1;
     border-radius: 25px;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .buttons{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin-top: 30px;
     border-style: solid;
     border-color: brown;
     
@@ -136,7 +135,9 @@ a:link, a:visited,  a:hover, a:active
     width: 127px;
     height: 36px;
     margin: 4px;
-    border-radius: 0px;
+   
+    -moz-appearance: none;
+-webkit-appearance: none;
 }
 
 footer{
