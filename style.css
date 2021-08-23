@@ -214,3 +214,14 @@ footer{
         width: 50vw;
     }
 }
+
+@media (max-width: 630px){
+    .search{
+        width: 95vw;
+    }
+
+    .logo{
+        width: 50vw;
+    }
+
+}
