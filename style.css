@@ -238,3 +238,24 @@ footer{
     }
 
 }
+
+
+@media (max-width: 630px) and (max-height){
+    .search{
+        width: 95vw;
+    }
+
+    .logo{
+        width: 50vw;
+    }
+
+    .top-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
