@@ -94,7 +94,7 @@ a{
 
 .glass{
     border-style: solid;
-    border-color: blue;
+    border-color: green;
     display: flex;
     align-items: center;
 }
