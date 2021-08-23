@@ -57,9 +57,11 @@ a{
     display: flex;
     align-items: center;
     margin: 5px;
+    
 }
 .img-border{
     border-radius: 50%;
+    background-color: grey;
 }
 
 
@@ -67,9 +69,8 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-color: chocolate;
    
+    
    
     
    
@@ -78,8 +79,6 @@ a{
 
 .logo{
     width: 390px;
-    border-style: solid;
-    border-color: crimson;
     margin: auto;
     padding-top: 20px;
     margin-top: 30px;
@@ -93,23 +92,30 @@ a{
 
 
 .glass{
-    border-style: solid;
-    border-color: green;
     display: flex;
     align-items: center;
+}
+
+.magnifying-glass{
+    width: 100%;
+    height: auto;
 }
 .textbox{
    width: 450px;
    border-style: none;
    background-color:#fff;
    display: flex;
-   align-items: center;
+   width: 94%;
    height: 20px;
    margin: auto;
+   margin-right: 4px;
+   outline: none;
+ 
 
 
  
 }
+
 
 
 .search{
@@ -119,18 +125,35 @@ a{
     height: 44px;
     display: flex;
     justify-content: flex-start;
-    border-style: solid;
-    border-color: black;
+    border-style: solid ;
+    border-color: #dfe1e5;
+    border-width: 1px;
     border-radius: 25px;
     margin-top: 30px;
 }
 
+.search:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.img-border:hover{
+    color: grey;
+}
+.submit:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color:grey;
+}
 .buttons{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    border-style: solid;
-    border-color: brown;
+   
+    
     
 }
 
@@ -138,6 +161,7 @@ a{
     width: 127px;
     height: 36px;
     margin: 4px;
+    border-style: none;
    
     -moz-appearance: none;
 -webkit-appearance: none;
