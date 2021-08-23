@@ -149,7 +149,7 @@ footer{
     justify-content: flex-end;
     height: 100%;
     width: 100%;
-    background-color: greenyellow;
+ 
    
 }
 
@@ -168,7 +168,7 @@ footer{
 
 }
 .bottom-section{
-    width: 100vw;
+    width: 100%;
     margin: 0;
     display: flex;
     background-color: #dadce0;
@@ -195,6 +195,9 @@ footer{
 
 }
 
+input{
+    font-size: 16px;
+}
 .leaf{
     margin-right: 7px;
     margin-top: 3px;
