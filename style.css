@@ -110,16 +110,19 @@ a{
 
  
 }
+
+
 .search{
-    width: 500px;
-    height: 39px;
+    
+    width: 80vmin;
+    
+    height: 44px;
     display: flex;
     justify-content: flex-start;
     border-style: solid;
     border-color: black;
-    flex-shrink: 1;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .buttons{
@@ -199,4 +202,9 @@ footer{
 .fright-side{
     display: flex;
     align-items: center;
+}
+
+
+@media screen {
+    
 }
