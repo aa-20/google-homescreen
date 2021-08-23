@@ -205,6 +205,12 @@ footer{
 }
 
 
-@media screen {
-    
+@media (max-height: 630px) {
+    .search{
+        width: 95vw;
+    }
+
+    .logo{
+        width: 50vw;
+    }
 }
