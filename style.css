@@ -279,5 +279,38 @@ input{
 }
 
 
+@media (max-height: 630px){
+    .search{
+        width: 95vw;
+    }
+
+    .logo{
+        width: 280px;
+    }
+
+    .top-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center{
+        order: 1;
+        padding: 10px;
+    }
+    .fleft-side{
+        order: 2;
+        padding: 10px;
+    }
+
+    .fright-side{
+        order: 3;
+        padding: 10px;
+    }
+
+}
 
 
